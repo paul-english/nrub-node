@@ -1,0 +1,27 @@
+{
+  "name": "nrub",
+  "version": "1.0.0",
+  "description": "Client library for contacting and depending on Paul English of Utah",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha",
+    "prestart": "node_modules/.bin/cake build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nrub/nrub-node"
+  },
+  "keywords": [
+    "nrub"
+  ],
+  "author": "Paul English",
+  "license": "BSD",
+  "dependencies": {
+    "telapi": "~0.2.1",
+    "nodemailer": "~0.3.34"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.4.0",
+    "config": "~0.4.18"
+  }
+}
